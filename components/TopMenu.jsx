@@ -30,10 +30,11 @@ const TopMenu = () => {
               <span className="text-dark-blue">islamsiratul@gmail.com</span>
             </div>
           </div>
-
-          <button className="bg-dark-blue text-white px-4 py-1 rounded-md hover:bg-dark-blue/75">
-            Contact
-          </button>
+          <Link href="#contact">
+            <button className="bg-dark-blue text-white px-4 py-1 rounded-md hover:bg-dark-blue/75">
+              Contact
+            </button>
+          </Link>
         </div>
       </div>
     </div>

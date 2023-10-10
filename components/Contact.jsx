@@ -65,7 +65,10 @@ const Contact = () => {
             </p>
             <p className="text-dark-blue mt-12">Email me at</p>
             <h4>
-              <a href="#" className="text-lg font-semibold text-dark-blue">
+              <a
+                href="mailto:islamsiratul@gmail.com"
+                className="text-lg font-semibold text-dark-blue"
+              >
                 islamsiratul@gmail.com
               </a>
             </h4>
@@ -73,16 +76,32 @@ const Contact = () => {
               <div className="flex flex-col gap-2">
                 <h5 className="text-dark-blue">Socials</h5>
                 <div className="flex gap-5">
-                  <a href="#" className="text-3xl text-dark-blue">
+                  <a
+                    href="https://github.com/Siratul804"
+                    className="text-3xl text-dark-blue"
+                    target="_blank"
+                  >
                     <AiFillGithub />
                   </a>
-                  <a href="#" className="text-3xl text-dark-blue">
+                  <a
+                    href="https://www.linkedin.com/in/siratulislam/"
+                    className="text-3xl text-dark-blue"
+                    target="_blank"
+                  >
                     <AiFillLinkedin />
                   </a>
-                  <a href="#" className="text-3xl text-dark-blue">
+                  <a
+                    href="https://www.instagram.com/siratul_islam/"
+                    className="text-3xl text-dark-blue"
+                    target="_blank"
+                  >
                     <AiFillInstagram />
                   </a>
-                  <a href="#" className="text-3xl text-dark-blue">
+                  <a
+                    href="https://twitter.com/Siratul074"
+                    className="text-3xl text-dark-blue"
+                    target="_blank"
+                  >
                     <AiFillTwitterSquare />
                   </a>
                 </div>
