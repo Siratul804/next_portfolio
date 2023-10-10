@@ -15,9 +15,9 @@ module.exports = {
         ...defaultTheme.screens,
       },
       colors: {
-        "dark-red": "#d80032",
+        "dark-red": "#9c412c",
         "light-red": "#ef233c",
-        "light-bg": "#edf2f4",
+        "light-bg": "",
         "dark-bg": "#8d99ae",
         "dark-blue": "#2b2d42",
       },
