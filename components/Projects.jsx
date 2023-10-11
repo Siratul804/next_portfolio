@@ -8,7 +8,7 @@ import ProjectCard from "../components/ProjectCard";
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [filtered, setFiltered] = useState([]);
-  const [visibleProjects, setVisibleProjects] = useState(9);
+  const [visibleProjects, setVisibleProjects] = useState(6);
 
   const loadMoreProjects = () => {
     setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 6);
