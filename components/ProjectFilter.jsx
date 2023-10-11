@@ -35,7 +35,7 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
-          onClick={() => setActiveCategory("fs")}
+          onClick={() => setActiveCategory("full")}
         >
           Full Stack
         </button>
@@ -45,9 +45,9 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
-          onClick={() => setActiveCategory("react")}
+          onClick={() => setActiveCategory("font")}
         >
-          React
+          Fontend
         </button>
         <button
           className={
@@ -55,9 +55,9 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
-          onClick={() => setActiveCategory("vanilla")}
+          onClick={() => setActiveCategory("back")}
         >
-          HTML/CSS/JS
+          Backend
         </button>
       </div>
     </>

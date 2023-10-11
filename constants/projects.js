@@ -1,12 +1,13 @@
 export const projects = [
   {
-    name: "Moonlamp E-commerce",
-    githubUrl: "https://github.com/DevAntonioRogers/Full-Stack-Moonlamp-E-commerce",
-    image: "../../assets/maxresdefault.jpg",
-    youtube: true,
-    youtubeUrl: "https://www.youtube.com/watch?v=3qiMJ5-0RVA",
-    category: ["react", 'fs'],
-
+    name: "EZPromt AI ",
+    githubUrl: "https://github.com/Siratul804/prompt_nextJS",
+    image: "../../assets/ez.PNG",
+    youtube: false,
+    youtubeUrl: "",
+    category: ["full", "font", "back"],
+    projectUrl: "https://ezprompt.vercel.app/",
+    deployed: true,
   },
   {
     name: "Premium Caps",
@@ -14,7 +15,7 @@ export const projects = [
     image: "../../assets/premium.jpeg.png",
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=pvcLCSIezlA&t=180s",
-    category: ["react", 'fs'],
+    category: ["react", "fs"],
   },
   {
     name: "The Art Spot",
@@ -22,7 +23,7 @@ export const projects = [
     image: "../../assets/art.png",
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=LbkvSDPV3eg&t=719s",
-    category: ["react", 'fs'],
+    category: ["react", "fs"],
   },
   {
     name: "Imagine Media",
@@ -32,7 +33,7 @@ export const projects = [
     youtubeUrl: "https://www.youtube.com/watch?v=AP8tZwPzsXA&t=2631s",
     projectUrl: "https://imagine-eight.vercel.app/",
     category: ["react"],
-    deployed: true
+    deployed: true,
   },
   {
     name: "Image Generator",
@@ -79,7 +80,6 @@ export const projects = [
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=7f8vE_zKTqI&t=12s",
     category: ["vanilla"],
-
   },
   {
     name: "Weather App v2",
@@ -89,7 +89,6 @@ export const projects = [
     image: "../../assets/weatherv2.png",
     youtube: true,
     category: ["react"],
-
   },
   {
     name: "Portfolio Website",
@@ -98,7 +97,6 @@ export const projects = [
     youtube: true,
     youtubeUrl: "https://www.youtube.com/watch?v=zdGdgBq9jf4&t=23s",
     category: ["vanilla"],
-
   },
   {
     name: "Weather App",
@@ -107,8 +105,5 @@ export const projects = [
     image: "../../assets/weatherv1.png",
     youtube: true,
     category: ["react"],
-
   },
-
-
-]
+];

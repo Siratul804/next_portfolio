@@ -14,7 +14,9 @@ const TopMenu = () => {
         <div className="flex justify-between items-center w-full md:hidden">
           <div className="flex gap-10 w-full">
             <Link href={"/"}>
-              <h1 className="font-bold text-3xl text-dark-red">Sirat</h1>
+              <h1 className="font-bold text-3xl text-dark-red font-mono ">
+                Siratul
+              </h1>
             </Link>
           </div>
 
