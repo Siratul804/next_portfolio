@@ -8,15 +8,18 @@ const Hero = () => {
     <section className="hero-container">
       <div className="hero-content-container">
         <div className="max-md:order-2 flex flex-col gap-5 z-40">
-          <div className="text-4xl lg:text-6xl">
+          <div className="text-4xl lg:text-6xl  " data-aos="fade-left">
             <h1>Hi, I'm Siratul a</h1>
-            <span className="font-bold text-dark-red text-[45px] ">
+            <span className="font-bold text-dark-red text-[45px] relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black ">
               Software Developer
             </span>
             <h2 className=" mt-2 text-[35px] ">Bridging Knowledge Gaps</h2>
             <p className="mt-5 text-xl">
               As a software developer, I have the power to create tools and
               solutions that simplify and improve people's lives.
+              <br />
+              My work can streamline business processes, enhance communication,
+              automate tasks, and make information accessible to everyone.
             </p>
           </div>
 
@@ -33,12 +36,13 @@ const Hero = () => {
             </Link>
           </div>
         </div>
+
         <Image
           src="/assets/profile.svg"
           width={400}
           height={400}
           alt="Antonio Rogers"
-          className="z-10"
+          className="z-10  animate-[bounce_20s_ease-in-out_infinite]"
         />
       </div>
 

@@ -53,6 +53,10 @@ const About = () => {
             management systems (CMS) for a polished online presence. <br />{" "}
             <br /> <b>6) Graphic Design and Video Editing:</b> Beyond coding, I
             have creative talents that shine in UI/UX design and Editing Videos.
+            <br />
+            <br /> <b>7) Prompt Engineering:</b> Recently I completed the openAI
+            prompt engineering course. The course helps me to deal with many AI
+            applications to make creative products.
             <br /> <br />
             Thanks <br /> Siratul Islam
           </p>

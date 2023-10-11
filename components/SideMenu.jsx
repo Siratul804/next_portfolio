@@ -104,13 +104,25 @@ const SideMenu = () => {
           </div>
           <div className="flex items-center flex-col justify-center text-center">
             <div className="flex flex-col lg:flex-row items-center gap-4 mb-3">
-              <a href="/" target="_blank" className="social-icon text-white">
+              <a
+                href="https://www.linkedin.com/in/siratulislam/"
+                target="_blank"
+                className="social-icon text-white"
+              >
                 <AiFillLinkedin />
               </a>
-              <a href="/" target="_blank" className="social-icon text-white">
+              <a
+                href="https://github.com/Siratul804"
+                target="_blank"
+                className="social-icon text-white"
+              >
                 <AiFillGithub />
               </a>
-              <a href="/" target="_blank" className="social-icon text-white">
+              <a
+                href="https://www.youtube.com/channel/UC0h9fyZlhZKZ6Rq5FKQH35Q"
+                target="_blank"
+                className="social-icon text-white"
+              >
                 <BsYoutube />
               </a>
             </div>
