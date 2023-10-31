@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="font-bold text-dark-red text-[35px] md:text-[45px]  relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black ">
               Software Developer
             </span>
-            <h2 className=" mt-2 text-[35px] ">Bridging Knowledge Gaps</h2>
+            <h2 className=" mt-2 text-[35px] ">Create Solutions</h2>
             <p className="mt-5 text-[25px] md:text-[22px] font-sans  ">
               As a software developer, I have the power to create tools and
               solutions that simplify and improve people's lives.

@@ -27,9 +27,7 @@ const About = () => {
 
         <div className="mt-7">
           <p className="mt-6 text-gray-600 text-[24px] leadiing-10 font-sans ">
-            Hi,🙋🏻‍♂️
-            <br /> <br /> My name is Siratul Islam. As a
-            <b className="text-dark-red"> Software Developer</b>, I have the
+            As a<b className="text-dark-red"> Software Developer</b>, I have the
             power to create tools and solutions that simplify and improve
             people's lives. My work can streamline business processes, enhance
             communication, automate tasks, and make information accessible to
