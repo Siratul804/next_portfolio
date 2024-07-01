@@ -14,6 +14,8 @@ const Projects = () => {
     setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 6);
   };
 
+  // Need to add a extra page of skills as well need to fix project section where I have to include my projects
+
   return (
     <div
       className="w-full h-fit px-[40px] py-10 max-xs:px-[20px] relative bg-white"

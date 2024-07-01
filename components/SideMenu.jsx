@@ -3,11 +3,20 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { BsYoutube } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
+import dynamic from "next/dynamic";
 import { useMenuStore } from "@/store/useMenuStore";
 import { sidebarMenuLinks } from "@/constants";
+
+const BsYoutube = dynamic(() =>
+  import("react-icons/bs").then((mod) => mod.BsYoutube)
+);
+const AiFillLinkedin = dynamic(() =>
+  import("react-icons/ai").then((mod) => mod.AiFillLinkedin)
+);
+const AiFillGithub = dynamic(() =>
+  import("react-icons/ai").then((mod) => mod.AiFillGithub)
+);
+const FaDev = dynamic(() => import("react-icons/fa").then((mod) => mod.FaDev));
 
 const SideMenu = () => {
   const pathname = usePathname();

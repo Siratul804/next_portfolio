@@ -50,6 +50,15 @@ const Skills = () => {
           </div>
           <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)] justify-center  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <Image
+              src="/assets/native.png"
+              width={180}
+              height={150}
+              alt="react"
+              className="mb-2"
+            />
+          </div>
+          <div className="bg-light-bg p-8  rounded-md text-center flex flex-col items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)] justify-center  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            <Image
               src="/assets/next.svg"
               width={100}
               height={100}
