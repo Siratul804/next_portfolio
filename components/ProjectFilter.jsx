@@ -31,7 +31,7 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
         </button>
         <button
           className={
-            activeCategory == "fs"
+            activeCategory == "full"
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
@@ -41,7 +41,7 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
         </button>
         <button
           className={
-            activeCategory == "react"
+            activeCategory == "font"
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
@@ -51,13 +51,23 @@ const ProjectFilter = ({ setFiltered, activeCategory, setActiveCategory }) => {
         </button>
         <button
           className={
-            activeCategory == "vanilla"
+            activeCategory == "back"
               ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
               : null
           }
           onClick={() => setActiveCategory("back")}
         >
           Backend
+        </button>
+        <button
+          className={
+            activeCategory == "mob"
+              ? `bg-dark-blue py-1 px-3 text-white rounded-lg`
+              : null
+          }
+          onClick={() => setActiveCategory("mob")}
+        >
+          Mobile
         </button>
       </div>
     </>

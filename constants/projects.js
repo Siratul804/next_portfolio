@@ -1,5 +1,15 @@
 export const projects = [
   {
+    name: "Flora",
+    githubUrl: "https://github.com/Siratul804/Flora_Native",
+    image: "../../assets/mob.png",
+    youtube: false,
+    youtubeUrl: "",
+    category: ["mob"],
+    projectUrl: "https://github.com/Siratul804/Flora_Native",
+    deployed: true,
+  },
+  {
     name: "EZPromt AI ",
     githubUrl: "https://github.com/Siratul804/prompt_nextJS",
     image: "../../assets/ez.PNG",
