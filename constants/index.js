@@ -10,10 +10,16 @@ export const sidebarMenuLinks = [
     sectionId: "about",
   },
   {
+    route: "#experience",
+    label: "Experience",
+    sectionId: "experience",
+  },
+  {
     route: "#skills",
     label: "Skills",
     sectionId: "skills",
   },
+
   {
     route: "#projects",
     label: "Projects",
@@ -25,6 +31,3 @@ export const sidebarMenuLinks = [
     sectionId: "contact",
   },
 ];
-
-
-
