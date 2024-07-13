@@ -87,11 +87,19 @@ export const projects = [
     deployed: true,
   },
   {
-    name: "stb Solution",
-    githubUrl: "#",
-    image: "../../assets/dummy.png",
+    name: "Todo Application",
+    githubUrl: "https://github.com/Siratul804/todo",
+    image: "../../assets/todo.png",
     deployed: true,
-    projectUrl: "https://epic-stonebraker-d0f036.netlify.app/",
+    projectUrl: "https://todo-by-siratul.vercel.app/",
+    category: ["font"],
+  },
+  {
+    name: "Sweet Home",
+    githubUrl: "https://github.com/Siratul804/sweet_life",
+    image: "../../assets/sweet.png",
+    deployed: true,
+    projectUrl: "https://sweetlife112.netlify.app/",
     category: ["font"],
   },
 ];
