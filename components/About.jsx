@@ -74,7 +74,7 @@ const About = () => {
             <li className="w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
               <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-light-bg">
                 <h3 className="text-[40px] mb-[3px font-bold text-dark-red">
-                  15+
+                  35+
                 </h3>
                 <span className="uppercase">Projects Completed</span>
               </div>
