@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <div className="w-full">
           <ul className="flex justify-between gap-10 flex-col md:flex-row">
             <li className="w-full shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
@@ -89,7 +89,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
