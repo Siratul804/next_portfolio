@@ -10,16 +10,15 @@ const Hero = () => {
         <div className="max-md:order-2 flex flex-col gap-5 z-40">
           <div className="text-4xl lg:text-6xl  " data-aos="fade-left">
             <h1>Hi, I'm Siratul a</h1>
-            <span className="font-bold text-dark-red text-[35px] md:text-[45px]  relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black ">
-              Software Developer
-            </span>
-            <h2 className=" mt-2 text-[35px] ">Create Solutions</h2>
-            <p className="mt-5 text-[25px] md:text-[22px] font-sans  ">
+            {/* <span className="font-bold text-dark-red text-[35px] md:text-[45px]  relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black ">
+              Expert in Scalable Full-Stack Solutions
+            </span> */}
+            <h2 className=" mt-2 text-[28px] font-bold text-dark-red py-2 ">
+              Expert in Scalable Full-Stack Solutions
+            </h2>
+            <p className="mt-5 text-[24px] md:text-[22px] font-sans  ">
               As a software developer, I have the power to create tools and
               solutions that simplify and improve people's lives.
-              <br />
-              My work can streamline business processes, enhance communication,
-              automate tasks, and make information accessible to everyone.
             </p>
           </div>
 
